@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/mText"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:background="@drawable/number_text_bg"
+            android:gravity="center" />
+
+        <com.sz.ft.numberkeyboard.view.NumberKeyBoardView
+            android:id="@+id/mNumberKeyBoardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"></com.sz.ft.numberkeyboard.view.NumberKeyBoardView>
+
+    </LinearLayout>
+
+</LinearLayout>
