@@ -19,8 +19,6 @@ public class NumberKeyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
     private Context mContext;
     private List<String> strings;
     private OnItemClickListener onItemClickListener;
-    private String tag = "=====NumberRecycleAdapter";
-
     public NumberKeyAdapter(Context context, List<String> strings) {
         mContext = context;
         this.strings = strings;
